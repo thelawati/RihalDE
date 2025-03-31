@@ -53,7 +53,7 @@ This command does the following:
   
   b. Loads data into the PostgreSQL database via ETL.
   
-  c. Runs the Streamlit dashboard at http://localhost:8501
+  c. Runs the Streamlit dashboard 
 
 3. Access the Dashboard
 Open your browser and visit:
