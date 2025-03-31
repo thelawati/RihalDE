@@ -3,23 +3,20 @@ Data Engineering Codestacker Ramadhan Challenge 1446 2025
 This project provides a complete data analytics pipeline including ETL (Extract, Transform, Load), PostgreSQL database storage, and an interactive Streamlit dashboard for visualizing crime data.
 
 ## Project Structure
-pgsql
-Copy
-Edit
-project-root/
-├── db/
-│   └── init.sql
-├── etl/
-│   ├── etl.py
-│   ├── crime_records.json
-│   ├── district_info.pdf
-│   └── requirements.txt
-├── app/
-│   ├── dashboard.py
-│   └── requirements.txt
-├── docker-compose.yml
-├── etl.Dockerfile
-└── app.Dockerfile
+docker-compose.yml
+app.Dockerfile
+etl.Dockerfile
+ db/ 
+------init.sql
+etl/
+------etl.py
+------crime_records.json
+------district_info.pdf
+------requirements.txt
+app/
+------dashboard.py
+------requirements.txt
+
 
 ## Dockerized Components
 PostgreSQL database: Stores cleaned and integrated crime data.
