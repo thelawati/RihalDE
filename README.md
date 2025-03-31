@@ -4,17 +4,29 @@ This project provides a complete data analytics pipeline including ETL (Extract,
 
 ## Project Structure
 docker-compose.yml
+
 app.Dockerfile
+
 etl.Dockerfile
+
  db/ 
+ 
 ------init.sql
+
 etl/
+
 ------etl.py
+
 ------crime_records.json
+
 ------district_info.pdf
+
 ------requirements.txt
+
 app/
+
 ------dashboard.py
+
 ------requirements.txt
 
 
